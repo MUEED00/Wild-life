@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="ico.png">
+
+    <title>World WildLife</title>
+  </head>
+
+  <body>
+    
+    <section class="showcase">
+      <header>
+        <h2 class="logo"><a href="index.html"><img src="background/logo1.svg" alt="logo_img" width="30" height="20"></a>FWEC&nbsp; </h2>
+        <div class="toggle"></div>
+      </header>
+     <video src = "background/redPanda.mp4" muted loop autoplay></video>
+     
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h3>Save our big backyard</h3>
+        <h3> Sign up for a free wildlife care guide </h3>
+        <p>One thing nearly all Pakistani share is a love for our native birds and animals. But as we face increasing threats from climate damage and extreme weather, it’s our wildlife who are often impacted the most.</p>
+        
+      <a href="donation.html">Donation</a>
+      </div>
+
+      <ul class="social">
+        <li><a href="#"><img src="background/facebook.png" alt="facebok_img"></a></li>
+        <li><a href="#"><img src="background/twitter.png" alt="twitter_img"></a></li>
+        <li><a href="#"><img src="background/instagram.png" alt="instagram_img"></a></li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourvalues.html">Our Values</a></li>
+        <li><a href="career .html">Careers</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shopping.html">shopping</a></li>
+      </ul>
+    </div>
+    
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+  </body>
+</html>
